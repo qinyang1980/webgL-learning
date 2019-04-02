@@ -1,0 +1,47 @@
+# config items
+web/res/config/*
+!web/res/config/core.json
+# build tmp
+web/tmp/
+tmp/
+# build output
+webminified/
+public/
+assets/
+platform/publish/dist/
+
+# generated js doc
+doc/api/
+
+# tmp files by tools/IDE
+# - git merge
+*.orig
+# - vim
+*.swp
+# - OS X
+.DS_Store
+# python
+*.pyc
+
+# npm
+node_modules/
+npm-debug.log
+npm-debug.log.*
+
+WebWorkbench.mswwsettings
+build/.project
+build/.pydevproject
+.idea
+.brackets.json
+
+
+.vagrant
+build/.metadata
+
+#eclipse
+.metadata
+
+#vscode
+.vscode/*
+!.vscode/settings.json
+package-lock.json
